@@ -1,2 +1,8 @@
-package org.chapter1;public class HelloWorld {
+package org.chapter1;
+
+public class HelloWorld {
+    public static void main(String args[]) {
+        String str = "Hello World!";
+        System.out.println(str);
+    }
 }
