@@ -15,7 +15,7 @@ public class HexadecimalToDecimal {
             if(ch<'a') {
                 decimalNum += (int) (Integer.parseInt(""+ch) * Math.pow(16,place-1));
                 place--;
-            } else if (ch>='a' && ch<='f') {
+            } else if (ch<='f') {
                 decimalNum += (10 + (ch-'a')) * Math.pow(16,place-1);
                 place--;
             }
